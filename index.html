@@ -10,10 +10,9 @@
 <body>
   <img src='./logo.svg' alt="logo" />
   <div id='app'></div>
-    <script type='module'>
-        import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm'
-        import ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm'
+    <script type='text/babel' data-presets="react" data-type='module'>
+        import show from './index.js'
+        show()
     </script>
-    <script type='text/babel' src='./index.js'></script>
 </body>
 </html>
