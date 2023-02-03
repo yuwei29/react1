@@ -7,9 +7,9 @@
     <title>react test 1</title>
 </head>
 <body>
+    <img src='./logo.svg' alt="logo" />
   <div id='root></div>
   <script type="module">
-    import logo from './logo.svg';
     import react from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm'
     import reactDom from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm'
     const root = reactDom.createRoot(document.getElementById('root'));
@@ -17,7 +17,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hello, World!
         </p>
