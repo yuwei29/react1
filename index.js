@@ -11,6 +11,4 @@ function App() {
     </div>
   );
 }
-
-const f = ()=>ReactDOM.render(<App />, document.getElementById('app'));
-export default f
+ReactDOM.render(<App />, document.getElementById('app'));
